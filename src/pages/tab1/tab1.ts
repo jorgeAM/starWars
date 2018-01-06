@@ -3,6 +3,8 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 //DATA
 import { Personaje } from '../../interfaces/personaje';
 import { PERSONAJES } from '../../data/personajes.data';
+//PAGINA2
+import { Pagina2Page } from '../pagina2/pagina2';
 
 @IonicPage()
 @Component({
@@ -18,6 +20,11 @@ export class Tab1Page {
 
   detalle(personaje: any){
     console.log(personaje);
+    this.navCtrl.push(Pagina2Page, {
+      nombre: personaje.nombre,
+      titulo: personaje.titulo,
+      img: personaje.img
+    });
   }
 
 }

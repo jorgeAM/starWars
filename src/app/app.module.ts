@@ -5,6 +5,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
+import { Pagina2Page } from '../pages/pagina2/pagina2';
 import { TabsPage } from '../pages/tabs/tabs'
 import { Tab1Page } from '../pages/tab1/tab1';
 import { Tab2Page } from '../pages/tab2/tab2';
@@ -15,6 +16,7 @@ import { Tab3Page } from '../pages/tab3/tab3';
     MyApp,
     TabsPage,
     Tab1Page,
+    Pagina2Page,
     Tab2Page,
     Tab3Page
   ],
@@ -27,6 +29,7 @@ import { Tab3Page } from '../pages/tab3/tab3';
     MyApp,
     TabsPage,
     Tab1Page,
+    Pagina2Page,
     Tab2Page,
     Tab3Page
   ],
