@@ -8,11 +8,10 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'pagina2.html',
 })
 export class Pagina2Page {
+  personaje: any;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-    let nombre = this.navParams.get('nombre');
-    let titulo = this.navParams.get('titulo');
-    let img = this.navParams.get('img');
+    this.personaje = this.navParams.get('personaje');
   }
 
 }

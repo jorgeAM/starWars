@@ -21,9 +21,7 @@ export class Tab1Page {
   detalle(personaje: any){
     console.log(personaje);
     this.navCtrl.push(Pagina2Page, {
-      nombre: personaje.nombre,
-      titulo: personaje.titulo,
-      img: personaje.img
+      personaje: personaje
     });
   }
 
